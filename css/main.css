@@ -1,0 +1,15 @@
+/* 
+Flex container: aling all elemnts from row on left side
+flexdirection
+defult value is row - main access horizontal 
+colum - main access hvertical cross horizontal
+*/
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container div {
+	float: right;
+}
